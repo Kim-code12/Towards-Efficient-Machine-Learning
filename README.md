@@ -8,7 +8,7 @@ In this section, we compare various computer vision models for image classificat
 
 <p float="left">
   <img src="/images/efficientvit_figure1.png" width="12%" />
-  <img src="efficient_vit_fig1_rei.png" width="48%" /> 
+  <img src="/images/efficient_vit_fig1_rei.png" width="48%" /> 
 </p>
 
 
