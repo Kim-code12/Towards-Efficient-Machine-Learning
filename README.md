@@ -12,6 +12,7 @@ In this section, we compare various computer vision models for image classificat
   <img src="/images/efficient_vit_fig1.png" width="48%" height="300px"/>
   <img src="/images/efficient_vit_fig1_rei.png" width="48%" height="300px" />
 </p>
+
                   Efficient Vit Figure 1.                                                       Our Replication
 
 This figure is a major figure for papers that are reporting their efficient model. Both figures get throughput via TensorRT. In our reimplementation, which is on the left, we use an A100 GPU, batch size 64, and TensorRT version 8.6.1. As a result, it slightly differs from the original report. We didn't include EfficientNetV2 because its accuracy is obtained from other resolutions like 382, 480, not 224, and ConvNext performs better than CoatNet. However, in the original paper, CoatNet achieved better throughput than ConvNext.
