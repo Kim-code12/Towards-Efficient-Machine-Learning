@@ -7,7 +7,6 @@ there gonna be several situaiton to build efficient model.
 In this section, we compare various computer vision models for image classification benchmarks, such as ImageNet1K and CIFAR100. We evaluate the models based on several metrics, including latency, throughput (across various devices like cloud GPUs [A100], CPUs, and mobile devices), GFLOPs, GMACs, and the number of parameters. This analysis is inspired by the findings in "Paper Title", specifically replicating Figure 1 and Table 1 from the paper. 
 
 **Figure 1. Reimplementation of [Paper Title] Figure 1.**
-
                   Efficient Vit Figure 1.                                                       Our Replication
 <p float="left">
   <img src="/images/efficient_vit_fig1.png" width="48%" height="300px"/>
