@@ -1,9 +1,13 @@
 # Efficient Neural Networks (NN) Project
 
 Our project is divided into several sections, each focusing on a different aspect of efficient neural networks. Here's an overview of each section:
+there gonna be several situaiton to build efficient model. 
 
-## Section 1: Efficient Computer Vision Model Comparison
-In this section, we compare various computer vision models for image classification benchmarks, such as ImageNet1K and CIFAR100. We evaluate the models based on several metrics, including latency, throughput (across various devices like cloud GPUs [A100], CPUs, and mobile devices), GFLOPs, GMACs, and the number of parameters. This analysis is inspired by the findings in "Paper Title", specifically replicating Figure 1 and Table 1 from the paper.
+## Section 1: Efficient Model.
+In this section, we compare various computer vision models for image classification benchmarks, such as ImageNet1K and CIFAR100. We evaluate the models based on several metrics, including latency, throughput (across various devices like cloud GPUs [A100], CPUs, and mobile devices), GFLOPs, GMACs, and the number of parameters. This analysis is inspired by the findings in "Paper Title", specifically replicating Figure 1 and Table 1 from the paper. 
+
+Section 1.1 ImangeNet-1K reimplementation. this figure are major figure for papers that are reporting their efficient model. in this subsection
+
 
 ## Section 2: Exporting Models and Measuring Latency
 We'll provide a detailed tutorial on how to export models to different devices and measure their latency. This section aims to guide users through the practical aspects of deploying efficient neural networks.
