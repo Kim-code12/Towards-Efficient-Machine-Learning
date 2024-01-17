@@ -8,7 +8,7 @@ In this section, we compare various computer vision models for image classificat
 ![Example Image](/images/efficient_vit_fig1.png "Example Image Titl")
 <p float="left">
   <img src="/images/efficient_vit_fig1.png" width="48%" />
-  <img src="efficient_vit_fig1_rei.png" width="48%" /> 
+  <img src="/imagesefficient_vit_fig1_rei.png" width="48%" /> 
 </p>
 
 
