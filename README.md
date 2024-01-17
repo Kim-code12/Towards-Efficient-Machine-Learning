@@ -8,7 +8,7 @@ In this section, we compare various computer vision models for image classificat
 
 **Figure 1. Reimplementation of [Paper Title] Figure 1.**
 
-                  Efficient Vit Figure 1.                                                                   Our Replication
+                  Efficient Vit Figure 1.                                                       Our Replication
 <p float="left">
   <img src="/images/efficient_vit_fig1.png" width="48%" height="300px"/>
   <img src="/images/efficient_vit_fig1_rei.png" width="48%" height="300px" />
