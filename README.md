@@ -7,7 +7,8 @@ there gonna be several situaiton to build efficient model.
 In this section, we compare various computer vision models for image classification benchmarks, such as ImageNet1K and CIFAR100. We evaluate the models based on several metrics, including latency, throughput (across various devices like cloud GPUs [A100], CPUs, and mobile devices), GFLOPs, GMACs, and the number of parameters. This analysis is inspired by the findings in "Paper Title", specifically replicating Figure 1 and Table 1 from the paper. 
 ![Example Image](/images/efficient_vit_fig1.png "Example Image Titl")
 <p float="left">
-  <img src="/images/efficientvit_figure1.png" >
+  <img src="/images/efficient_vit_fig1.png" >
+  <img src="efficient_vit_fig1_rei.png"> 
 </p>
 
 
