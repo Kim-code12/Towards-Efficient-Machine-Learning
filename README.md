@@ -7,12 +7,11 @@ there gonna be several situaiton to build efficient model.
 In this section, we compare various computer vision models for image classification benchmarks, such as ImageNet1K and CIFAR100. We evaluate the models based on several metrics, including latency, throughput (across various devices like cloud GPUs [A100], CPUs, and mobile devices), GFLOPs, GMACs, and the number of parameters. This analysis is inspired by the findings in "Paper Title", specifically replicating Figure 1 and Table 1 from the paper. 
 
 **Figure 1. Reimplementation of [Paper Title] Figure 1.**
-                  Efficient Vit Figure 1.                                                       Our Replication
+
 <p float="left">
   <img src="/images/efficient_vit_fig1.png" width="48%" height="300px"/>
   <img src="/images/efficient_vit_fig1_rei.png" width="48%" height="300px" />
 </p>
-
                   Efficient Vit Figure 1.                                                       Our Replication
 
 This figure is a major figure for papers that are reporting their efficient model. Both figures get throughput via TensorRT. In our reimplementation, which is on the left, we use an A100 GPU, batch size 64, and TensorRT version 8.6.1. As a result, it slightly differs from the original report. We didn't include EfficientNetV2 because its accuracy is obtained from other resolutions like 382, 480, not 224, and ConvNext performs better than CoatNet. However, in the original paper, CoatNet achieved better throughput than ConvNext.
